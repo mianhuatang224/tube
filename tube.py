@@ -5,9 +5,9 @@ import requests
 import re
 import sys
 
-windows = False
-if 'win' in sys.platform:
-    windows = True
+#windows = False
+#if 'win' in sys.platform:
+   # windows = True
 
 erreur = 'https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8'
 
