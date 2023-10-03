@@ -40,6 +40,9 @@ jobs:
           python3 tube.py "https://www.youtube.com/channel/UCO6K_kkdP-lnSCiO3tPx7WA/live" > franceinfo.m3u8
           sleep 15
           python3 tube.py "https://www.youtube.com/channel/UCW2QcKZiU8aUGg4yxCIditg/live" > euronews.m3u8
+          sleep 15
+          python3 tube.py "https://www.youtube.com/channel/UCT67YOMntJxfRnO_9bXDpvw/live" > lemedia.m3u8
+          
 
       # Informer Git que vous voulez inclure les mises à jour dans un fichier.
       - name: git add
