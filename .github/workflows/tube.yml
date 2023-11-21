@@ -37,7 +37,7 @@ jobs:
           pwd
           python3 tube.py "https://www.youtube.com/channel/UCCCPCZNChQdGa9EkATeye4g/live" > france24.m3u8
           sleep 15
-          python3 tube.py "https://www.youtube.com/channel/UCZwH0u8a16vQhAhkbjEK3wA/live" > franceinfo.m3u8
+          python3 tube.py "https://www.youtube.com/channel/UCO6K_kkdP-lnSCiO3tPx7WA/live" > franceinfo.m3u8
           sleep 15
           python3 tube.py "https://www.youtube.com/channel/UCW2QcKZiU8aUGg4yxCIditg/live" > euronews.m3u8
           sleep 15
