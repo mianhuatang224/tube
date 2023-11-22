@@ -12,7 +12,7 @@ def snif(url):
     retour = re.findall(r'\"hlsManifestUrl\":\"(.*?)\"\}', lien)
     tri = unquote(''.join(retour))
     flux = requests.get(tri).text
-    if '.m3u8' not in tri:
+    if '#EXTM3U' not in tri:
         print(erreur)
     else:
         print(flux)
