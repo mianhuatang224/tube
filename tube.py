@@ -13,10 +13,11 @@ def snif(url):
     retour = re.findall(r'\"hlsManifestUrl\":\"(.*?)\"\}', lien)
     tri = unquote(''.join(retour))
     flux = requests.get(tri).text
-    if '#EXTM3U' not in tri:
-        print(erreur)
-    else:
-        print(flux)
+    print(flux)
+#    if '#EXTM3U' not in tri:
+   #     print(erreur)
+#    else:
+   #     print(flux)
 
 s = requests.Session()
 result = snif(str(sys.argv[1]))
