@@ -14,7 +14,7 @@ def snif(url):
     tri = unquote(''.join(retour))
     flux = requests.get(tri).text
    # print(flux)
-    if '#.m3u8' not in tri:
+    if '.m3u8' not in tri:
         print(erreur)
     else:
         print(flux)
