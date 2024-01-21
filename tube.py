@@ -6,8 +6,7 @@ import requests
 import re
 import sys
 
-erreur = 'https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8'
-
+erreur = requests.get("https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8").text
 def snif(url):
     lien = s.get(url, timeout=15).text
     retour = re.findall(r'\"hlsManifestUrl\":\"(.*?)\"\}', lien)
