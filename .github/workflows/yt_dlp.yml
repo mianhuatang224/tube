@@ -85,7 +85,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCYhS-Sw_IKM9CZLPd3QS-BQ/live)
+        $(yt-dlp --print urls https://www.youtube.com/@beautifulworld4k/live)
         EOL
 
 
