@@ -5,11 +5,12 @@ on:
   schedule:
     - cron: '0 */3 * * *' # Configuré pour actualiser automatiquement toutes les 3 heures.
 
-  pull_request:
-    branches:
-      - main
 
   workflow_dispatch:
+
+permissions:
+  contents: write
+  
 
 jobs:
   build:
