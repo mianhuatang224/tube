@@ -37,6 +37,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCUaHJ0fTA-1theR8A8Polmw/live)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
         
     - name: Euronews fr
@@ -47,6 +48,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCW2QcKZiU8aUGg4yxCIditg/live)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
 
     - name: Africanews fr
@@ -57,6 +59,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@africanewsfr/live)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
 
     - name: France24 fr
@@ -67,6 +70,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@FRANCE24/live)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL         
         
     - name: Lemedia
@@ -77,6 +81,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@LeMediaOfficiel/live)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
         
     - name: Relax nature
@@ -100,6 +105,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.dailymotion.com/video/x3b68jn)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
         
     - name: CANAL+ en clair
@@ -121,6 +127,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.dailymotion.com/video/xkxbzc)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
         
     - name: France info
@@ -131,6 +138,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.dailymotion.com/video/x4rdeu6)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
         
     - name: C8
@@ -141,7 +149,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.dailymotion.com/video/x5gv5rr)
-        https://raw.githubusercontent.com/BG47510/tube/main/c8.m3u8
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
         
     - name: La chaine l'Équipe
@@ -174,6 +182,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.dailymotion.com/video/x7tn4fp)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
         
     - name: M Le Média
@@ -184,6 +193,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.dailymotion.com/video/x8j47xa)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
         EOL
 
 
