@@ -1,9 +1,15 @@
 name: OpenVPN
 
 on:
+ # schedule:
+  #  - cron: '0 */3 * * *' #Configuré pour l’obtenir automatiquement toutes les 3 heures
+
   workflow_dispatch:
+
+permissions:
+  contents: write
   
-  jobs:
+jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
