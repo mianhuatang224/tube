@@ -1,4 +1,10 @@
-  connect-open-vpn:
+name: OpenVPN
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
