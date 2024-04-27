@@ -32,7 +32,7 @@ jobs:
       - name: Connecter le VPN
         uses: "kota65535/github-openvpn-connect-action@v2"
         with:
-          config_file: ${GITHUB_WORKSPACE}/vpn/client.ovpn
+          config_file: .vpn/client.ovpn
           username: ${{ secrets.CLIENT_ID }}
           password: ${{ secrets.CLIENT_MP }}
       - name: essai1
