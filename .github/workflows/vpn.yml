@@ -21,6 +21,7 @@ jobs:
           password: ${{ secrets.CLIENT_MP }}
       - name: Check Connect VPN
         run: echo ${{ steps.connect_vpn.outputs.STATUS }}
-      - name: kill vpn
+      - name: Couper la connexion VPN
         if: always()
-        run: sudo killall openvpn
+        run: |
+          sudo killall openvpn
