@@ -24,15 +24,16 @@ jobs:
         run: |
          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
          sudo chmod a+rx /usr/local/bin/yt-dlp
-         
-      - name: Configurer le fichier ovpn
-        run: |
-         sudo openvpn ${GITHUB_WORKSPACE}/vpn/client.ovpn
+
         
       - name: Installer OpenVPN
         run: |
           sudo apt update
           sudo apt install -y openvpn openvpn-systemd-resolved
+         
+      - name: Configurer le fichier ovpn
+        run: |
+         sudo openvpn ${GITHUB_WORKSPACE}/vpn/client.ovpn       
       - name: Connecter le VPN
         uses: "kota65535/github-openvpn-connect-action@v2"
         with:
