@@ -26,8 +26,8 @@ jobs:
          sudo chmod a+rx /usr/local/bin/yt-dlp
          
       - name: Configurer le fichier ovpn
-      run: |
-        sudo openvpn ${GITHUB_WORKSPACE}/vpn/client.ovpn
+        run: |
+         sudo openvpn ${GITHUB_WORKSPACE}/vpn/client.ovpn
         
       - name: Installer OpenVPN
         run: |
