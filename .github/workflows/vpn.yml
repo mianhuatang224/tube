@@ -33,13 +33,16 @@ jobs:
          
       - name: Configurer le fichier ovpn
         run: |
-         sudo openvpn ${GITHUB_WORKSPACE}/vpn/client.ovpn       
-      - name: Connecter le VPN
-        uses: "kota65535/github-openvpn-connect-action@v2"
-        with:
-          config_file: client.ovpn
+         sudo openvpn ${GITHUB_WORKSPACE}/vpn/client.ovpn    
           username: ${{ secrets.CLIENT_ID }}
           password: ${{ secrets.CLIENT_MP }}
+          
+  #    - name: Connecter le VPN
+  #      uses: "kota65535/github-openvpn-connect-action@v2"
+   #     with:
+  #        config_file: client.ovpn
+  #        username: ${{ secrets.CLIENT_ID }}
+  #        password: ${{ secrets.CLIENT_MP }}
       - name: essai1
         run: |
          touch ./essai1.m3u8
