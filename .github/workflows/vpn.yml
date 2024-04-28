@@ -34,6 +34,7 @@ jobs:
       - name: Configurer le fichier ovpn
         run: |
          sudo openvpn ${GITHUB_WORKSPACE}/vpn/client.ovpn    
+         #sudo openvpn --config ${GITHUB_WORKSPACE}/tunnel/client.ovpn --auth-user-pass ${GITHUB_WORKSPACE}/tunnel/userpass.txt
           username: ${{ secrets.CLIENT_ID }}
           password: ${{ secrets.CLIENT_MP }}
           
