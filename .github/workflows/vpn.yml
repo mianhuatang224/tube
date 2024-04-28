@@ -24,7 +24,11 @@ jobs:
         run: |
          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
          sudo chmod a+rx /usr/local/bin/yt-dlp
-
+         
+      - name: Mettre à jour le fichier de configuration
+        shell: bash
+        run: echo "remote ${{ inputs.remote }}" >> $GITHUB_ACTION_PATH/vpn/client.ovpn
+        
       - name: Installer OpenVPN
         run: |
           sudo apt update
@@ -56,7 +60,7 @@ jobs:
          git commit -m "Les liens sont mis à jour"
          git push
 
-      - name: Couper la connexion VPN
+      - name: Déconnecter le VPN
         if: always()
         run: |
           sudo killall openvpn
