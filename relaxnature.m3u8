@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1716489233/ei/sTdPZq7CA7CpkucPn9avmAI/ip/40.71.163.73/id/6xzgcJnT78A.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr4---sn-p5qlsn7s.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/3305000/mh/hZ/mm/44/mn/sn-p5qlsn7s/ms/lva/mv/m/mvi/4/pl/15/dover/11/pacing/0/keepalive/yes/mt/1716467320/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRQIgZ_jr_63Y3gLFT0BVN4X1MpmONlUoAKzuBuMgK32NSyoCIQDh2AcQx0Fl9I8IwO4h-cXAtCkmqCb-kvhQUdp-72JAdQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRgIhAPR98h1oZshswcZnonh8aOzs11jbKdt6W4WYz0oIHJ-5AiEA6P0lqxEExHRgy90OdfxRpL5TUhz0DelwlPvjjToc9AE%3D/playlist/index.m3u8
 https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
