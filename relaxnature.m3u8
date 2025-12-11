@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1765479511/ei/9786aeK4EJDJ-coPl8-IuA4/ip/172.183.91.32/id/BLhwuB7eMOo.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-vgqsknzs.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AYUSA3DHHG2hUhgKFSaYytw9nvf1_eN7yRkkQqhyiS6-RCCsVjXctqo_If9faTqzyARCUVU1sXyAOZM-/spc/wH4QqwbXeigDAHiuQoK4Z3r-u6W8bfw-rZlx7J5Frh76wFc51MpH-XYGSekgTxsRMlk/vprv/1/playlist_type/DVR/cps/138/met/1765457911,/mh/fs/mm/44/mn/sn-vgqsknzs/ms/lva/mv/u/mvi/4/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51514993,51552689,51565116,51565682,51580968/mt/1765457522/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRAIgH6ffKzJR928TEx3y9d4NGxv5T8hncVgUoUHQj4BYHUsCIGBVGgRNV66OUqNmjt8oFyonulNIv_q1-b8YtAa08d3E/lsparams/hls_chunk_host,cps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhALq_WPX5m_0E6h5QdsATwauSj2wh4TeMEeDUC4xRN1zyAiEA7fwNfifZngxWM2PxazihcguKrAkkcgm27dwO1BIeQa8%3D/playlist/index.m3u8
+
 https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
